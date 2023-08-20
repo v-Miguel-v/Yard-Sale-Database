@@ -1,0 +1,25 @@
+{
+  "name": "yard-sale-database",
+  "version": "1.0.0",
+  "description": "API y Base de datos de la tienda online \"Yard Sale\".",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "express.js",
+    "node.js",
+    "postgreSQL"
+  ],
+  "author": "Miguel Velásquez <vmiguel.xy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.2"
+  }
+}
